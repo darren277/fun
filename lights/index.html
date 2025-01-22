@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <style>
+        #liteBriteCanvas {
+            background-color: black;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+<h4>Enter path to a URL (local or Web URL):</h4>
+<input type="text" id="urlInput" value="" placeholder="Enter URL">
+<button id="loadButton">Load</button>
+<h6>Example: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/606px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg</h6>
+<canvas id="liteBriteCanvas" width="{{canvas.width}}" height="{{canvas.height}}"></canvas>
+<script src="/lights/index.js"></script>
+<script>
+    const urlInput = document.getElementById('urlInput');
+    const loadButton = document.getElementById('loadButton');
+    const liteBriteCanvas = document.getElementById('liteBriteCanvas');
+    const ctx = liteBriteCanvas.getContext('2d');
+    const img = new Image();
+    img.crossOrigin = 'Anonymous';
+    img.onload = () => {
+        liteBriteCanvas.width = img.width;
+        liteBriteCanvas.height = img.height;
+        ctx.drawImage(img, 0, 0);
+    };
+
+    const convert = async (url) => {
+        const response = await fetch('/lights/convert', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ url })
+        });
+        const data = await response.json();
+        return data;
+    };
+
+    const load = async () => {
+        const url = urlInput.value;
+        console.log('loading url', url);
+        const canvas_data = await convert(url);
+        console.log('canvas_data', canvas_data);
+
+        render(canvas_data);
+    };
+
+    loadButton.onclick = load;
+</script>
+</body>
+</html>
