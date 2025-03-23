@@ -42,3 +42,57 @@
 | 20        | Research Double-Bit Axe.                  |
 | 20        | Research Horse Collar.                    |
 | 21-28     | Build more farms.                         |
+
+## Fast Castle Boom
+
+Starts off essentially the same as the Scout Rush.
+
+Start off at 20 villagers and no Loom.
+
+| Villagers  | Task                                          |
+|------------|-----------------------------------------------|
+| 20-21      | Send new villagers for wood.                  |
+| 22         | Send new villager to build house (then wood). |
+| 23         | Send new villager to wood.                    |
+| 24         | Build mining camp next to gold.               |
+| 25-26      | Send new villagers to gold.                   |
+| 26         | Send to gold.                                 |
+| 26         | Advance to Feudal age.                        |
+| 26         | As villagers finish with sheep send to farms. |
+
+
+| NOTE: | At this point you should be in Feudal age.         |
+|-------|----------------------------------------------------|
+| _____ | And you should have:                               |
+| 0-7   | Villagers on sheep.                                |
+| 5     | Villagers on berries.                              |
+| 9     | Villagers on wood.                                 |
+| 2-9   | Villagers on farms.                                |
+| 3     | Villagers on gold.                                 |
+
+| Villagers | Task                                                               |
+|-----------|--------------------------------------------------------------------|
+| 26        | Take 1 villager from wood to build Blacksmith (then back to wood). |
+| 26        | Take 2 villagers from wood to build Market (then back to wood).    |
+| 26        | Research Double-Bit Axe.                                           |
+| 27        | Build a house (then wood).                                         |
+| 28        | Collect wood.                                                      |
+| 28        | Advance to Castle age.                                             |
+| 28        | Research Horse Collar.                                             |
+| 28        | Take 2 villagers from berries to wood.                             |
+
+| NOTE: | At this point you should be in Castle age.         |
+|-------|----------------------------------------------------|
+| _____ | And you should have:                               |
+| 0-7   | Villagers on sheep.                                |
+| 3     | Villagers on berries.                              |
+| 13    | Villagers on wood.                                 |
+| 2-9   | Villagers on farms.                                |
+| 3     | Villagers on gold.                                 |
+
+| Villagers | Task                                                         |
+|-----------|--------------------------------------------------------------|
+| 28        | Send 8 villagers from wood to Build 2 Town Centers (4 each). |
+| 29+       | Buy 100 stone and build a 4th TC [optional]                  |
+| 29+       | Build more farms.                                            |
+| 29+       | Build more houses.                                           |
