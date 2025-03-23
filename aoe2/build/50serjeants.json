@@ -1,0 +1,181 @@
+{
+    "name": "50 Serjeants in 19 Minutes",
+    "civilization": "Sicilians",
+    "author": "Morley Games",
+    "source": "https://youtu.be/ccxNQyfSGBk",
+    "description": "A build that will get you to 50 Sicilian serjeants in under 19 minutes.",
+    "build_order": [
+        {
+            "villager_count": 6,
+            "age": 1,
+            "resources": {
+                "wood": 0,
+                "food": 6,
+                "gold": 0,
+                "stone": 0
+            },
+            "notes": [
+                "2 @other/House_aoe2DE.png@ + 6 on @animal/Sheep_aoe2DE.png@"
+            ]
+        },
+        {
+            "villager_count": 10,
+            "age": 1,
+            "resources": {
+                "wood": 4,
+                "food": 6,
+                "gold": 0,
+                "stone": 0
+            },
+            "notes": [
+                "4 on @resource/Aoe2de_wood.png@"
+            ]
+        },
+        {
+            "villager_count": 11,
+            "age": 1,
+            "resources": {
+                "wood": 4,
+                "food": 7,
+                "gold": 0,
+                "stone": 0
+            },
+            "notes": [
+                "1 Lures @animal/Boar_aoe2DE.png@"
+            ]
+        },
+        {
+            "villager_count": 16,
+            "age": 1,
+            "resources": {
+                "wood": 4,
+                "food": 12,
+                "gold": 0,
+                "stone": 0
+            },
+            "notes": [
+                "2 @other/House_aoe2DE.png@ + @mill/Mill_aoe2de.png@ + 5 on @resource/BerryBushDE.png@"
+            ]
+        },
+        {
+            "villager_count": 18,
+            "age": 1,
+            "resources": {
+                "wood": 4,
+                "food": 14,
+                "gold": 0,
+                "stone": 0
+            },
+            "notes": [
+                "2 on @animal/Sheep_aoe2DE.png@",
+                "Seed 2 @mill/FarmDE.png@"
+            ]
+        },
+        {
+            "villager_count": 24,
+            "age": 1,
+            "resources": {
+                "wood": 10,
+                "food": 14,
+                "gold": 0,
+                "stone": 0
+            },
+            "notes": [
+                "6 on @resource/Aoe2de_wood.png@"
+            ]
+        },
+        {
+            "villager_count": 26,
+            "age": 1,
+            "resources": {
+                "wood": 10,
+                "food": 14,
+                "gold": 2,
+                "stone": 0
+            },
+            "notes": [
+                "2 on @resource/Aoe2de_gold.png@"
+            ]
+        },
+        {
+            "villager_count": 28,
+            "age": 1,
+            "resources": {
+                "wood": 10,
+                "food": 14,
+                "gold": 2,
+                "stone": 2
+            },
+            "notes": [
+                "2 on @resource/Aoe2de_stone.png@",
+                "Research 29 Pop @age/FeudalAgeIconDE_alpha.png@"
+            ]
+        },
+        {
+            "villager_count": 28,
+            "age": 2,
+            "resources": {
+                "wood": 10,
+                "food": 11,
+                "gold": 2,
+                "stone": 5
+            },
+            "notes": [
+                "Before @age/FeudalAgeIconDE_alpha.png@",
+                "3 @animal/Sheep_aoe2DE.png@ → 3 @resource/Aoe2de_stone.png@",
+                "Seed 4 @mill/FarmDE.png@"
+            ]
+        },
+        {
+            "villager_count": 30,
+            "age": 2,
+            "resources": {
+                "wood": 10,
+                "food": 11,
+                "gold": 2,
+                "stone": 7
+            },
+            "notes": [
+                "In @age/FeudalAgeIconDE_alpha.png@",
+                "@blacksmith/Blacksmith_aoe2de.png@ + @market/Market_aoe2DE.png@ + 2 on @resource/Aoe2de_stone.png@",
+                "Research @age/CastleAgeIconDE_alpha.png@"
+            ]
+        },
+        {
+            "villager_count": 30,
+            "age": 3,
+            "resources": {
+                "wood": 12,
+                "food": 4,
+                "gold": 4,
+                "stone": 10
+            },
+            "notes": [
+                "Before @age/CastleAgeIconDE_alpha.png@",
+                "2 @mill/FarmDE.png@ → 2 @resource/Aoe2de_wood.png@",
+                "Research @lumber_camp/DoubleBitAxe_aoe2DE.png@ + @mining_camp/StoneMiningDE.png@",
+                "2 @resource/BerryBushDE.png@ → 2 @resource/Aoe2de_gold.png@",
+                "3 @resource/BerryBushDE.png@ → 3 @resource/Aoe2de_stone.png@"
+            ]
+        },
+        {
+            "villager_count": 30,
+            "age": 3,
+            "resources": {
+                "wood": 12,
+                "food": 4,
+                "gold": 4,
+                "stone": 10
+            },
+            "notes": [
+                "In @age/CastleAgeIconDE_alpha.png@",
+                "@castle/Castle_aoe2DE.png@ + 4 @town_center/Towncenter_aoe2DE.png@",
+                "Sell 200 @resource/Aoe2de_stone.png@",
+                "Sell 200 @resource/Aoe2de_wood.png@",
+                "Research First Crusade",
+                "@barracks/Barracks_aoe2DE.png@",
+                "Research @barracks/ArsonDE.png@ + @blacksmith/ScaleMailArmorDE.png@ + @blacksmith/Forging_aoe2de.png@"
+            ]
+        }
+    ]
+}
